@@ -61,15 +61,16 @@ body_parts = {
     "db_incline_bench": ["chest"],
     "cable_fly": ["chest"],
     "cable_low_fly": ["chest"],
-    "pause_bench": ["chest"],
-    "drop_bench": ["chest"],
-    "weighted_pushup": ["chest"],
-    "1arm_pushup": ["chest"],
+    #"pause_bench": ["chest"],
+    #"drop_bench": ["chest"],
+    #"weighted_pushup": ["chest"],
+    #"1arm_pushup": ["chest"],
     "pushup": ["chest"],
 
     "deadlift": ["back"],
     "pullup": ["back"],
     "bb_row": ["back"],
+    "kb_row": ["back"],
     "db_row": ["back"],
     "db_pullover": ["back"],
     "cable_pulldown": ["back"],
@@ -78,26 +79,34 @@ body_parts = {
     "db_press": ["shoulders"],
     "bb_military_press": ["shoulders"],
     "kb_overhead_press": ["shoulders"],
-    "arnold_press": ["shoulders"],
-    "handstand_press": ["shoulders"],
+    #"arnold_press": ["shoulders"],
+    #"handstand_press": ["shoulders"],
     "front_raise": ["shoulders"],
+    "delt_fly": ["shoulders"],
     "lat_raise": ["shoulders"],
     "kb_halo": ["shoulders"],
     "kb_getup": ["shoulders"],
 
     "squat": ["legs"],
-    "lunge": ["legs"],
     "split_squat": ["legs"],
+    "goblet_squat": ["legs"],
+    "kb_sumo_squat": ["legs"],
     "box_squat": ["legs"],
     "smith_machine_squat": ["legs"],
     "hack_squat": ["legs"],
+
     "hip_thrust": ["legs"],
-    "romanian_deadlift": ["legs"],
-    "alt_leg_deadlift": ["legs"],
-    "kb_deadlift": ["legs"],
-    "kb_swing": ["legs"],
+    "lunge": ["legs"],
+    "step_up": ["legs"],
     "soleo": ["legs"],
     "leg_press": ["legs"],
+    
+    "romanian_deadlift": ["legs"],
+    "alt_leg_deadlift": ["legs"],
+    "kick_stand_rdl": ["legs"],
+
+    "kb_deadlift": ["legs"],
+    "kb_swing": ["legs"],
     "good_morning": ["legs"],
     "seated_good_morning": ["legs"],
     "kb_getup": ["legs"],
@@ -115,6 +124,11 @@ body_parts = {
     "tricep_kickback": ["triceps"],
     "dips": ["triceps"],
     "diamond_pushup": ["triceps"],
+
+    "hanging_raise": ["core"],
+    "weighted_situp": ["core"],
+    "plank": ["core"],
+    "stomach_vaccum": ["core"],
 }
 
 week_buckets = [last_sat()]
@@ -134,6 +148,7 @@ bucket_data = {
     "legs": [0, 0, 0, 0],
     "biceps": [0, 0, 0, 0],
     "triceps": [0, 0, 0, 0],
+    "core": [0, 0, 0, 0],
 }
 
 for (exercise, sets) in workouts.items():

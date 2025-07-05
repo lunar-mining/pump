@@ -22,8 +22,8 @@ exercises = [
         ("lcf", "cable_low_fly",        "Low cable fly"),
         #("pb",  "pause_bench",          "Pause bench"),
         #("drp", "drop_bench",           "Drop bench"),
-        ("wp",  "weighted_pushup",      "Weighted pushup"),
-        ("1p",  "1arm_pushup",          "One-arm pushup"),
+        #("wp",  "weighted_pushup",      "Weighted pushup"),
+        #("1p",  "1arm_pushup",          "One-arm pushup"),
         ("pu",  "pushup",               "Push up"),
     ]],
 
@@ -34,6 +34,7 @@ exercises = [
         ("pp",  "pullup",               "Pullup"),
         ("r",   "bb_row",               "Row"),
         ("dr",  "db_row",               "Db row"),
+        ("kr",  "kb_row",               "Kb row"),
         ("po",  "db_pullover",          "Db pullover"),
         ("cp",  "cable_pulldown",       "Cable pulldown"),
     ]],
@@ -46,29 +47,37 @@ exercises = [
         ("mp",  "bb_military_press",    "Military press"),
         ("kp",  "kb_overhead_press",    "Kb overhead press"),
         #("ap",  "arnold_press",         "Arnold press"),
-        ("hp",  "handstand_press",      "Handstand press"),
+        #("hp",  "handstand_press",      "Handstand press"),
         ("fr",  "front_raise",          "Front raise"),
+        ("df",  "delt_fly",             "Rear delt fly"),
         ("lr",  "lat_raise",            "Lat raise"),
-        ("kbh", "kb_halo",              "Kb halo"),
-        ("kbg", "kb_getup",             "Kb getup"),
+        ("kh",  "kb_halo",              "Kb halo"),
+        ("kg",  "kb_getup",             "Kb getup"),
     ]],
 
     [
         "Legs", [
 
         ("s",   "squat",                "Squat"),
-        ("l",   "lunge",                "Lunge"),
         ("ss",  "split_squat",          "Split squat"),
+        ("gs",  "goblet_squat",         "Goblet squat"),
+        ("kss", "kb_sumo_squat",        "Kb sumo squat"),
         ("bx",  "box_squat",            "Box squat"),
         ("sms", "smith_machine_squat",  "Smith machine squat"),
         ("hs",  "hack_squat",           "Hack squat"),
+
         ("ht",  "hip_thrust",           "Hip thrust"),
-        ("rdl", "romanian_deadlift",    "Romanian deadlift"),
-        ("asl", "alt_leg_deadlift",     "Alt leg deadlift"),
-        ("kdl", "kb_deadlift",          "Kb deadlift"),
-        ("ks",  "kb_swing",             "Kb swing"),
+        ("l",   "lunge",                "Lunge"),
+        ("su",  "step_up",              "Weighted step up"),
         ("sol", "soleo",                "Soleo"),
         ("lp",  "leg_press",            "Leg press"),
+
+        ("rdl", "romanian_deadlift",    "Romanian deadlift"),
+        ("asl", "alt_leg_deadlift",     "Alt leg deadlift"),
+        ("ksr", "kick_stand_rdl",       "Kick stand RDL"),
+
+        ("kdl", "kb_deadlift",          "Kb deadlift"),
+        ("ks",  "kb_swing",             "Kb swing"),
         ("gm",  "good_morning",         "Good morning"),
         ("sgm", "seated_good_morning",  "Seated good morning"),
     ]],
@@ -100,6 +109,8 @@ exercises = [
 
         ("hr",  "hanging_raise",        "Hanging raise"),
         ("ws",  "weighted_situp",       "Weighted situp"),
+        ("plk", "plank",                "Plank"),
+        ("sv",  "stomach_vacuum",       "Stomach vaccum"),
     ]],
     # ("c",   "",                 "Custom"),
 ]
