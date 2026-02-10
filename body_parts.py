@@ -61,6 +61,7 @@ body_parts = {
     "db_incline_bench": ["chest"],
     "cable_fly": ["chest"],
     "cable_low_fly": ["chest"],
+    "trx_fly": ["chest"],
     #"pause_bench": ["chest"],
     #"drop_bench": ["chest"],
     #"weighted_pushup": ["chest"],
@@ -86,6 +87,7 @@ body_parts = {
     "lat_raise": ["shoulders"],
     "kb_halo": ["shoulders"],
     "kb_getup": ["shoulders"],
+    "trx_fly": ["shoulders"],
 
     "squat": ["legs"],
     "split_squat": ["legs"],
@@ -94,6 +96,8 @@ body_parts = {
     "box_squat": ["legs"],
     "smith_machine_squat": ["legs"],
     "hack_squat": ["legs"],
+    "sumo_squat": ["legs"],
+    "db_rack_squat": ["legs"],
 
     "hip_thrust": ["legs"],
     "lunge": ["legs"],
@@ -101,6 +105,7 @@ body_parts = {
     "soleo": ["legs"],
     "leg_press": ["legs"],
     
+    "db_romanian_deadlift": ["legs"],
     "romanian_deadlift": ["legs"],
     "alt_leg_deadlift": ["legs"],
     "kick_stand_rdl": ["legs"],
@@ -110,6 +115,8 @@ body_parts = {
     "good_morning": ["legs"],
     "seated_good_morning": ["legs"],
     "kb_getup": ["legs"],
+    "trx_leg_curl": ["legs"],
+    "reverse_nordic": ["legs"],
 
     "bb_curl": ["biceps"],
     "cable_curl": ["biceps"],
@@ -128,6 +135,8 @@ body_parts = {
     "hanging_raise": ["core"],
     "weighted_situp": ["core"],
     "plank": ["core"],
+    "trx_plank": ["core"],
+    "trx_mountain": ["core"],
     "stomach_vaccum": ["core"],
 }
 
