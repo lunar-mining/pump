@@ -63,7 +63,7 @@ exercises = [
         ("ss",  "split_squat",          "Split squat"),
         ("gs",  "goblet_squat",         "Goblet squat"),
         ("sum", "sumo_squat",           "Sumo squat"),
-        ("drs", "db_rack_squat",        "Dumbell rack squat"),
+        ("drs", "db_rack_squat",        "Db rack squat"),
         #("kss", "kb_sumo_squat",        "Kb sumo squat"),
         #("bx",  "box_squat",            "Box squat"),
         #("sms", "smith_machine_squat",  "Smith machine squat"),
@@ -75,7 +75,7 @@ exercises = [
         ("sol", "soleo",                "Soleo"),
         ("lp",  "leg_press",            "Leg press"),
 
-        ("drl", "db_romanian_deadlift", "Dumbell RDL"),
+        ("dbr", "db_romanian_deadlift", "Db RDL"),
         ("rdl", "romanian_deadlift",    "Romanian deadlift"),
         ("asl", "alt_leg_deadlift",     "Alt leg deadlift"),
         ("ksr", "kick_stand_rdl",       "Kick stand RDL"),
