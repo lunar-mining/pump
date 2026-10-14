@@ -37,6 +37,8 @@ exercises = [
         ("kr",  "kb_row",               "Kb row"),
         ("po",  "db_pullover",          "Db pullover"),
         ("cp",  "cable_pulldown",       "Cable pulldown"),
+        ("scp", "single_pulldown",      "Single pulldown"),
+        ("cpo", "cable_pullover",       "Cable pullover"),
     ]],
 
     [
@@ -67,11 +69,12 @@ exercises = [
         #("kss", "kb_sumo_squat",        "Kb sumo squat"),
         #("bx",  "box_squat",            "Box squat"),
         #("sms", "smith_machine_squat",  "Smith machine squat"),
-        #("hs",  "hack_squat",           "Hack squat"),
+        ("hs",  "hack_squat",           "Hack squat"),
 
         ("ht",  "hip_thrust",           "Hip thrust"),
         ("l",   "lunge",                "Lunge"),
         ("su",  "step_up",              "Weighted step up"),
+        ("csu", "cable_step_up",        "Cable step up"),
         ("sol", "soleo",                "Soleo"),
         ("lp",  "leg_press",            "Leg press"),
 
@@ -85,6 +88,7 @@ exercises = [
         ("gm",  "good_morning",         "Good morning"),
         ("sgm", "seated_good_morning",  "Seated good morning"),
         ("txc", "trx_leg_curl",         "TRX leg curl"),
+        ("lc",  "leg_curl",             "Leg curl"),
         ("rn",  "reverse_nordic",       "Reverse nordic"),
     ]],
 
